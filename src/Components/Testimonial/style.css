@@ -1,0 +1,39 @@
+.test {
+    display: grid;
+    grid-gap: 20px; 
+    background-color: maroon;
+    color: white;
+    padding: 20px; 
+}
+
+.testimonial {
+    background-color: maroon;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+.name {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center; 
+    text-align: center; 
+    margin: 0 auto; 
+}
+
+.writing {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.pic {
+    width: 50px;
+    height: 35px;
+}
+
+.test .h3 {
+    color: blueviolet;
+}
+
+.test .h4 {
+    color: white;
+}
